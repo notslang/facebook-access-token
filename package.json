@@ -1,0 +1,20 @@
+{
+  "name": "facebook-access-token",
+  "description": "Automatically get Facebook user access tokens using Selenium WebDriver",
+  "version": "0.0.0",
+  "author": "Sean Lang <slang800@gmail.com>",
+  "bin": {
+    "facebook-access-token": "./bin/index.js"
+  },
+  "dependencies": {
+    "argparse": "^1.0.3",
+    "bluebird": "^3.0.5",
+    "express": "^4.13.3",
+    "webdriverio": "^3.3.0"
+  },
+  "license": "GPL-3.0",
+  "main": "lib",
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
