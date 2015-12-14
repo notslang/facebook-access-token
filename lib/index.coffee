@@ -6,7 +6,9 @@ webdriverio = require 'webdriverio'
 SITE_URL = 'http://localhost:8000/'
 
 getTokenPage = (appId, version) ->
-  fbOptions = JSON.stringify {appId, cookie: true, xfbml: true, version}
+  fbOptions = JSON.stringify(
+    {appId, cookie: true, xfbml: true, version: 'v' + version}
+  )
   """
   <!DOCTYPE html>
   <html>
